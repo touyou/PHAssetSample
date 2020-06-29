@@ -13,6 +13,8 @@
 		4601AA3324A9BB02002605B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4601AA3124A9BB02002605B3 /* Main.storyboard */; };
 		4601AA3524A9BB04002605B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4601AA3424A9BB04002605B3 /* Assets.xcassets */; };
 		4601AA3824A9BB04002605B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4601AA3624A9BB04002605B3 /* LaunchScreen.storyboard */; };
+		4601AA4324A9BC38002605B3 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4601AA4124A9BC38002605B3 /* ImageCollectionViewCell.swift */; };
+		4601AA4424A9BC38002605B3 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4601AA4224A9BC38002605B3 /* ImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4601AA3424A9BB04002605B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4601AA3724A9BB04002605B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4601AA3924A9BB04002605B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4601AA4124A9BC38002605B3 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		4601AA4224A9BC38002605B3 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		4601AA2A24A9BB02002605B3 /* PHAssetSample */ = {
 			isa = PBXGroup;
 			children = (
+				4601AA2F24A9BB02002605B3 /* ViewController.swift */,
+				4601AA4124A9BC38002605B3 /* ImageCollectionViewCell.swift */,
+				4601AA4224A9BC38002605B3 /* ImageCollectionViewCell.xib */,
+				4601AA3124A9BB02002605B3 /* Main.storyboard */,
 				4601AA2B24A9BB02002605B3 /* AppDelegate.swift */,
 				4601AA2D24A9BB02002605B3 /* SceneDelegate.swift */,
-				4601AA2F24A9BB02002605B3 /* ViewController.swift */,
-				4601AA3124A9BB02002605B3 /* Main.storyboard */,
 				4601AA3424A9BB04002605B3 /* Assets.xcassets */,
 				4601AA3624A9BB04002605B3 /* LaunchScreen.storyboard */,
 				4601AA3924A9BB04002605B3 /* Info.plist */,
@@ -127,6 +133,7 @@
 			files = (
 				4601AA3824A9BB04002605B3 /* LaunchScreen.storyboard in Resources */,
 				4601AA3524A9BB04002605B3 /* Assets.xcassets in Resources */,
+				4601AA4424A9BC38002605B3 /* ImageCollectionViewCell.xib in Resources */,
 				4601AA3324A9BB02002605B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				4601AA3024A9BB02002605B3 /* ViewController.swift in Sources */,
 				4601AA2C24A9BB02002605B3 /* AppDelegate.swift in Sources */,
+				4601AA4324A9BC38002605B3 /* ImageCollectionViewCell.swift in Sources */,
 				4601AA2E24A9BB02002605B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
